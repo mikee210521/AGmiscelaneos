@@ -1,0 +1,210 @@
+body{
+    margin: 0;
+}
+#primer{
+    border-radius: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+#menu ul{
+    list-style-type: none;
+    text-align: center;
+    margin: 20px;
+}
+#menu li{
+    display: inline;
+    text-align: center;
+    margin: 0 30px 0 0;
+}
+#menu li a {
+    color: black;
+    text-decoration: none;
+    border-bottom: 50px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+#menu li a:hover{
+    color: #2E86C1;
+    border-bottom: 2px solid #2E86C1;
+}
+#panel{
+    background-image: url("img/pn4.jpeg");
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 500px;
+    border-radius: 25px;
+}
+.conteiner{
+    text-align: center;
+    margin: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+}
+#sect{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#tarima{
+    background-image: url("img/ex.jpeg");
+    background-size: cover;
+    background-position: center center;
+    width: 240px;
+    height: 350px;
+    border-radius: 25px;
+    margin-right: 20px;
+}
+#info{
+    margin-right: 90px;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+}
+.conteiner1{
+    margin-top: 60px ;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+#tarima2{
+    background-image: url("img/B2.jpeg");
+    background-size: cover;
+    background-position: center center;
+    width: 240px;
+    height: 350px;
+    border-radius: 25px;
+    margin-right: 20px;
+}
+#tarima3{
+    background-image: url("img/b3.jpeg");
+    background-size: cover;
+    background-position: center center;
+    width: 240px;
+    height: 350px;
+    border-radius: 25px;
+    margin-right: 20px;
+}
+#tarima4{
+    background-image: url("img/T1.jpeg");
+    background-size: cover;
+    background-position: center center;
+    width: 240px;
+    height: 350px;
+    border-radius: 25px;
+    margin-right: 20px;
+}
+#tarima5{
+     background-image: url("img/TN.jpeg");
+     background-size: cover;
+     background-position: center center;
+     width: 240px;
+     height: 350px;
+     border-radius: 25px;
+     margin-right: 20px;
+ }
+#tarima6{
+    background-image: url("img/pn3.jpeg");
+    background-size: cover;
+    background-position: center center;
+    width: 240px;
+    height: 350px;
+    border-radius: 25px;
+    margin-right: 20px;
+}
+.circulo{
+    background-color: #ACDDFE;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.circulo{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+#sect2{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+#desc{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+#desc p{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    margin: 10px;
+}
+#sect3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+#sect4{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+#hora{
+    background-color: #ACDDFE;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    width: 300px;
+    height: 200px;
+}
+#hora p{
+    margin: 0;
+}
+#hora h2{
+    margin: 0 0 10px 0;
+}
+#contac{
+    text-align: center;
+    background-color: #ACDDFE;
+    border-radius: 25px;
+    width: 400px;
+    height: 300px;
+}
+#contac h3{
+    margin: 0 0 10px 0;
+}
+#contac p{
+    margin: 6px;
+}
+#email{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#email p{
+    margin-left: 3px;
+}
+#foot{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 100%;
+    height: 30px;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+#bar{
+    width: 90%;
+    border-color: #4ECB71;
+}
