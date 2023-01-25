@@ -29,19 +29,46 @@ body{
     color: #2E86C1;
     border-bottom: 2px solid #2E86C1;
 }
-#panel{
-    background-image: url("img/pn4.jpeg");
-    background-size: cover;
-    background-position: center center;
+.slider{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 600px;
+    overflow: hidden;
+}
+.slider ul{
+    display: flex;
+    animation: cambio 20s infinite alternate linear;
+    width: 193%;
+}
+.slider li{
     width: 100%;
-    height: 500px;
-    border-radius: 25px;
+    list-style: none;
+}
+.slider img{
+    width: 100%;
+    height: 100%;
+}
+@keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    100%{margin-left: -0%;}
+
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+    .slider, .slider ul, .slider img{
+        height: 100vh;
+    }
 }
 .btn-whatsapp {
     display:block;
     width:70px;
     height:70px;
-    color#fff;
+    color:#fff;
     position: fixed;
     right:20px;
     bottom:20px;
@@ -65,7 +92,7 @@ body{
     margin-right: 20px;
 }
 #tarima{
-    background-image: url("img/ex.jpeg");
+    background-image: url("img/pn2.jpeg");
     background-size: cover;
     background-position: center center;
     width: 240px;
@@ -156,6 +183,17 @@ body{
     font-weight: bold;
     margin: 10px;
 }
+
+#trata{
+    background-image: url("img/horno2.jpeg");
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 780px;
+    border-radius: 5px;
+
+}
+
 #sect3{
     display: flex;
     flex-direction: column;
